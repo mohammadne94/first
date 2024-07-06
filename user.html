@@ -13,96 +13,78 @@
     
     
    <!-- navbar section ---------start-------------------- -->
-  <nav class="z-depth-0 blue lighten-3 top-navbar">
+   <nav class="blue lighten-3 z-depth-0 top_navbar">
     <div class="nav-wrapper">
-      <a href="#!" class="brand-logo blue-text hide-on-med-and-up">User Manager</a>
-      <a href="#" data-target="mobile-demo" class="sidenav-trigger">
-        <i class="material-icons">menu</i>
-    </a>
+      <a href="#!" class="blue-text hide-on-med-and-up">Users management</a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger blue-text"><i class="material-icons">menu</i></a>
       <ul class="hide-on-med-and-down">
-        content
-            <a href="" class="blue-text">Home</a>
-        </li>
-        <li>
-            <a href="/users.html" class="blue-text">User Manager</a>
-        </li>
-        <li>
-            <a href="https://codeyad.com/courses" class="blue-text">codeyad</a>
-        </li>
-        <li>
-            <a href="https://www.youtube.com/channel/UC7_WFOLcQ4x9HCat_pE3hcA" class="blue-text">AQ fast learn</a>
-         </li>
+        <li><a href="/" class="blue-text">Home</a></li>
+        <li><a href="/user.html" class="blue-text">User Management</a></li>
+        <li><a href="https://codeyad.com" class="blue-text">Codeyad</a></li>
+        <li><a href="https://www.youtube.com/channel/UC7_WFOLcQ4x9HCat_pE3hcA" class="blue-text">AQ fast learn</a></li>
       </ul>
     </div>
-  </nav>
+</nav>
 
-
-  <ul class="sidenav" id="mobile-demo"> 
-    <li>
-        <div class="user-view">
-            <div class="background">
-                <img src="assets/images/images/office-2.webp" class="w-full">
-            </div>
-            <a href="#user"><img class="circle" 
-              src="assets/images/photo_2024-06-25_12-01-32.jpg">
-            </a>
-            <a href="#name">
-              <span class="white-text name">
-                Mohammad
-              </span>
-            </a>
-            <a href="#email">
-              <span class="white-text email">
-                nematim771@gmail.com
-              </span>
-            </a>
-        </div>
-    </li>
-      <li>
-        <a href="#!">
-          <i class="material-icons">cloud</i>First Link With Icon
-        </a>
-    </li>
-      <li>
-        <a href="#!">
-          Second Link
-        </a>
-    </li>
-      <li>
-        <div class="divider"></div>
-    </li>
-      <li>
-        <a class="subheader">
-          Tabs
-        </a>
-    </li>
-      <li>
-        <a class="waves-effect" href="#!">
-          Home
-        </a>
-    </li>
-    <li>
-      <a class="waves-effect" href="#!">
-        Users
-      </a>
+<ul class="sidenav" id="mobile-demo">
+  <li>
+    <div class="user-view">
+      <div class="background">
+        <img src="/assets/images/office-2.webp" class="w-full">
+      </div>
+      <a><img class="circle" src="/assets/images/avatar.png"></a>
+      <a><span class="white-text name">Qasem Bassaki</span></a>
+      <a><span class="white-text email">qasem@gmail.com</span></a>
+    </div>
   </li>
-  </ul> 
+  <li>
+    <a href="https://www.youtube.com/channel/UC7_WFOLcQ4x9HCat_pE3hcA">
+      <i class="material-icons">insert_link</i>
+      AQ Fast Learn
+    </a>
+  </li>
+  <li>
+    <a href="https://codeyad.com">
+      <i class="material-icons">insert_link</i>
+      Codeyad
+    </a>
+  </li>
+  <li><div class="divider"></div></li>
+  <li><a class="subheader">Pages:</a></li>
+  <li><a class="waves-effect" href="/">Home</a></li>
+  <li><a class="waves-effect" href="/user.html">Users</a></li>
+</ul> 
     <!-- navbar section ---------end------- -->
 
 
 
     <!-- content section ---------start-------------------- -->
-  <section>
-    <div>
-        <button class="waves-effect waves-light btn blue darken-2 p-l-30 p-r-30 w-full rounded_pill flex-c">
-            <i class="material-icons m-r-5">
-            Add
-            </i>
-            Add User
-        </button>
-    </div>
-  </section>
-    <!-- content section ---------end------- -->   
+
+    <section id="top_actions_section" class="row">
+        <!-- add button--------- -->
+        <div class="p-l-15 p-r-15 p-t-15">
+        <div class="p-l-15 p-r-15 p-t-15 col s12 m3 l2">
+          <button class="waves-effect waves-light btn blue darken-2 p-l-30 p-r-30 w-full rounded_pill flex-c">
+              <i class="material-icons m-r-5">add</i>
+              Add User
+          </button>
+        </div>
+        <!-- search section--------- -->
+        <div class="row">
+        <div class="row col s12 m9 l8">
+          <div class="input-field col s12">
+            <input id="search" type="text" class="validate">
+            <label for="search">
+              <i class="material-icons pos-relative top-7">search</i>
+              Search
+            </label>
+          </div>
+        </div>
+  
+        <div class="col l2 hide-on-med-and-down"></div>
+  
+    </section
+  
 
     <script src="assets/materialize/js/materialize.min.js"></script>
     <script src="assets/js/main.js"></script>

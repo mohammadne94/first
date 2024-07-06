@@ -5,4 +5,9 @@
     .top-navbar{
         box-shadow: 0 0 60px gray !important;
     }
+    
+    #top_actions_section{
+        display: flex !important;
+        align-items: center !important;
+    }
 }
